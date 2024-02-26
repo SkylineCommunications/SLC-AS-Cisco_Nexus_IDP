@@ -49,7 +49,6 @@ DATE		VERSION		AUTHOR			COMMENTS
 */
 
 using System;
-using System.Runtime.Serialization;
 
 using Skyline.DataMiner.Automation;
 using Skyline.DataMiner.DataMinerSolutions.DataMinerSystem;
@@ -187,25 +186,5 @@ public class Script
 		}
 
 		softwareUpdate.NotifyProcessSuccess();
-	}
-}
-
-[Serializable]
-public class UpdateFailedException : Exception
-{
-	public UpdateFailedException()
-	{
-	}
-
-	public UpdateFailedException(string message) : base(message)
-	{
-	}
-
-	public UpdateFailedException(string message, Exception innerException) : base(message, innerException)
-	{
-	}
-
-	protected UpdateFailedException(SerializationInfo info, StreamingContext context) : base(info, context)
-	{
 	}
 }

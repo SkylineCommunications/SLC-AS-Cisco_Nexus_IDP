@@ -51,39 +51,13 @@ DATE		VERSION		AUTHOR			COMMENT
 using System;
 using System.Collections.Generic;
 using System.IO;
+
 using IDP.Common;
+
 using Newtonsoft.Json;
+
 using Skyline.DataMiner.Automation;
 using Skyline.DataMiner.DataMinerSolutions.IDP.ConfigurationManagement;
-
-//---------------------------------
-// ..\Common\BackupDataFileType.cs
-//---------------------------------
-namespace IDP.Common
-{
-	public class BackupDataFileType
-	{
-		public string Tftp { get; set; }
-		public int FileType { get; set; }
-		public string FileName { get; set; }
-	}
-
-	public class BackupDataFolderPath
-	{
-		public string Tftp { get; set; }
-		public string FolderPath { get; set; }
-		public string FileName { get; set; }
-	}
-
-	public class BackupDataSourceIp
-	{
-		public string SourceIp { get; set; }
-		public string FileName { get; set; }
-	}
-}
-//---------------------------------
-// IDP_Custom_ConfigurationUpdate_CiscoNexusCLI_1.cs
-//---------------------------------
 
 public class Script
 {

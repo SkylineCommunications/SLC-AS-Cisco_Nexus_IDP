@@ -51,42 +51,15 @@ DATE		VERSION		AUTHOR			COMMENT
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Runtime.Serialization;
 using System.Text.RegularExpressions;
+
 using IDP.Common;
+
 using Newtonsoft.Json;
+
 using Skyline.DataMiner.Automation;
 using Skyline.DataMiner.DataMinerSolutions.IDP.ConfigurationManagement;
 using Skyline.DataMiner.DataMinerSolutions.IDP.Templates.Configuration;
-
-//---------------------------------
-// ..\Common\BackupDataFileType.cs
-//---------------------------------
-namespace IDP.Common
-{
-	public class BackupDataFileType
-	{
-		public string Tftp { get; set; }
-		public int FileType { get; set; }
-		public string FileName { get; set; }
-	}
-
-	public class BackupDataFolderPath
-	{
-		public string Tftp { get; set; }
-		public string FolderPath { get; set; }
-		public string FileName { get; set; }
-	}
-
-	public class BackupDataSourceIp
-	{
-		public string SourceIp { get; set; }
-		public string FileName { get; set; }
-	}
-}
-//---------------------------------
-// IDP_Custom_ConfigurationBackup_CiscoNexusCLI_1.cs
-//---------------------------------
 
 public class Script
 {
@@ -241,7 +214,7 @@ public class Script
 		 * *****************************
 		 * *Full Backup vs Core Backup:*
 		 * *****************************
-		 * 
+		 *
 		 * Not all parameters of an element need to be considered when detecting a change in the data. For example, if you have
 		 * an uptime parameter, that changes constantly, there is very little reason to include that when detecting a change
 		 * in version. As such, IDP allows you to provide two sets of backup data:
@@ -304,12 +277,12 @@ public class Script
 		}
 
 		// Send command
-		try{
-		element.SetParameter(9670, commandToSet);
+		try
+		{
+			element.SetParameter(9670, commandToSet);
 		}
 		catch
 		{
-		
 		}
 
 		// grab file from FTP to DM location
@@ -321,25 +294,5 @@ public class Script
 		};
 
 		return JsonConvert.SerializeObject(backup);
-	}
-
-	[Serializable]
-	public class BackupFailedException : Exception
-	{
-		public BackupFailedException()
-		{
-		}
-
-		public BackupFailedException(string message) : base(message)
-		{
-		}
-
-		public BackupFailedException(string message, Exception innerException) : base(message, innerException)
-		{
-		}
-
-		protected BackupFailedException(SerializationInfo info, StreamingContext context) : base(info, context)
-		{
-		}
 	}
 }
