@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DMSScript options="272" xmlns="http://www.skyline.be/automation">
+	<Name>IDP_Custom_SoftwareUpdate_CiscoNexusCLI</Name>
+	<Description />
+	<Type>Automation</Type>
+	<Author>SKYLINE2\AndriesDK</Author>
+	<CheckSets>FALSE</CheckSets>
+	<Folder></Folder>
+	<Protocols>
+	</Protocols>
+	<Memory>
+	</Memory>
+	<Parameters>
+		<ScriptParameter id="1" type="string" values="">
+			<Description>Guid</Description>
+		</ScriptParameter>
+		<ScriptParameter id="2" type="string" values="">
+			<Description>DataMiner Id</Description>
+		</ScriptParameter>
+		<ScriptParameter id="3" type="string" values="">
+			<Description>Element Id</Description>
+		</ScriptParameter>
+		<ScriptParameter id="4" type="string" values="">
+			<Description>CI Type</Description>
+		</ScriptParameter>
+		<ScriptParameter id="5" type="string" values="">
+			<Description>Image File Location</Description>
+		</ScriptParameter>
+	</Parameters>
+	<Script>
+		<Exe id="6" type="csharp">
+			<Value>
+				<![CDATA[[Project:IDP_Custom_SoftwareUpdate_CiscoNexusCLI_6]]]>
+			</Value>
+			<!--<Param type="debug">true</Param>-->
+			<Message />
+			<Param type="ref">C:\Skyline DataMiner\ProtocolScripts\DataMinerSolutions.dll</Param>
+			<Param type="ref">mscorlib.dll</Param>
+		</Exe>
+	</Script>
+</DMSScript>

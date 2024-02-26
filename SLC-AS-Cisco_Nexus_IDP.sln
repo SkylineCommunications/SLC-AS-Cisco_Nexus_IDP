@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{6E187B10-4474-4BB8-902B-E1735C2641B1}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\.editorconfig = Internal\.editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{CC42B712-FEF8-48BB-BA6D-F0EC72A6F3FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{69A42344-CEA6-4C51-9620-BE253952EC87}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\ABOUT.md = Dlls\ABOUT.md
+		..\..\..\..\Skyline DataMiner\ProtocolScripts\DataMinerSolutions.dll = ..\..\..\..\Skyline DataMiner\ProtocolScripts\DataMinerSolutions.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{090216E2-8728-4C3F-AA97-65850C31B0C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{B77135FF-322C-40C0-A817-D79633605079}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{3F9923A7-D771-4F00-83A4-7276B03E3510}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\ABOUT.md = Documentation\ABOUT.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F8938D60-51A0-4880-9CFC-19C66379BB5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{453DC1A5-0B8F-47FB-AE6A-F284D54F35CE}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IDP_Cistom_ConfigurationBackup_CiscoNexusCLI", "IDP_Cistom_ConfigurationBackup_CiscoNexusCLI", "{38F5BB91-6CCD-4A3A-8E65-28E1AD58028C}"
+	ProjectSection(SolutionItems) = preProject
+		IDP_Cistom_ConfigurationBackup_CiscoNexusCLI.xml = IDP_Cistom_ConfigurationBackup_CiscoNexusCLI.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{D92EF54D-35FC-4C5C-A975-BDDAF82903EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDP_Custom_ConfigurationBackup_CiscoNexusCLI_6", "IDP_Custom_ConfigurationBackup_CiscoNexusCLI_6\IDP_Custom_ConfigurationBackup_CiscoNexusCLI_6.csproj", "{C3C85E50-8773-4FEE-BD94-5869EC4A1419}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IDP_Custom_ConfigurationUpdate_CiscoNexusCLI", "IDP_Custom_ConfigurationUpdate_CiscoNexusCLI", "{26519F5A-5F8F-4276-9E39-A0EB26F0EA2C}"
+	ProjectSection(SolutionItems) = preProject
+		IDP_Custom_ConfigurationUpdate_CiscoNexusCLI.xml = IDP_Custom_ConfigurationUpdate_CiscoNexusCLI.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{0F60D4AA-8D83-4852-BE7B-77BA178146B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDP_Custom_ConfigurationUpdate_CiscoNexusCLI_6", "IDP_Custom_ConfigurationUpdate_CiscoNexusCLI_6\IDP_Custom_ConfigurationUpdate_CiscoNexusCLI_6.csproj", "{71650BFC-4762-4C87-8D17-3DFDA25C29DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IDP_Custom_SoftwareUpdate_CiscoNexusCLI", "IDP_Custom_SoftwareUpdate_CiscoNexusCLI", "{912F8432-172A-461E-AD6B-B60FF1DEB847}"
+	ProjectSection(SolutionItems) = preProject
+		IDP_Custom_SoftwareUpdate_CiscoNexusCLI.xml = IDP_Custom_SoftwareUpdate_CiscoNexusCLI.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{F93C64A4-76B2-4B0E-871C-4D9CF5DFD27F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDP_Custom_SoftwareUpdate_CiscoNexusCLI_6", "IDP_Custom_SoftwareUpdate_CiscoNexusCLI_6\IDP_Custom_SoftwareUpdate_CiscoNexusCLI_6.csproj", "{9C55157A-3D13-4E91-B0F6-52F52CCC4F64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3C85E50-8773-4FEE-BD94-5869EC4A1419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3C85E50-8773-4FEE-BD94-5869EC4A1419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3C85E50-8773-4FEE-BD94-5869EC4A1419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3C85E50-8773-4FEE-BD94-5869EC4A1419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71650BFC-4762-4C87-8D17-3DFDA25C29DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71650BFC-4762-4C87-8D17-3DFDA25C29DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71650BFC-4762-4C87-8D17-3DFDA25C29DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71650BFC-4762-4C87-8D17-3DFDA25C29DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C55157A-3D13-4E91-B0F6-52F52CCC4F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C55157A-3D13-4E91-B0F6-52F52CCC4F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C55157A-3D13-4E91-B0F6-52F52CCC4F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C55157A-3D13-4E91-B0F6-52F52CCC4F64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B77135FF-322C-40C0-A817-D79633605079} = {090216E2-8728-4C3F-AA97-65850C31B0C9}
+		{453DC1A5-0B8F-47FB-AE6A-F284D54F35CE} = {6E187B10-4474-4BB8-902B-E1735C2641B1}
+		{38F5BB91-6CCD-4A3A-8E65-28E1AD58028C} = {CC42B712-FEF8-48BB-BA6D-F0EC72A6F3FB}
+		{D92EF54D-35FC-4C5C-A975-BDDAF82903EF} = {38F5BB91-6CCD-4A3A-8E65-28E1AD58028C}
+		{C3C85E50-8773-4FEE-BD94-5869EC4A1419} = {D92EF54D-35FC-4C5C-A975-BDDAF82903EF}
+		{26519F5A-5F8F-4276-9E39-A0EB26F0EA2C} = {CC42B712-FEF8-48BB-BA6D-F0EC72A6F3FB}
+		{0F60D4AA-8D83-4852-BE7B-77BA178146B8} = {26519F5A-5F8F-4276-9E39-A0EB26F0EA2C}
+		{71650BFC-4762-4C87-8D17-3DFDA25C29DA} = {0F60D4AA-8D83-4852-BE7B-77BA178146B8}
+		{912F8432-172A-461E-AD6B-B60FF1DEB847} = {CC42B712-FEF8-48BB-BA6D-F0EC72A6F3FB}
+		{F93C64A4-76B2-4B0E-871C-4D9CF5DFD27F} = {912F8432-172A-461E-AD6B-B60FF1DEB847}
+		{9C55157A-3D13-4E91-B0F6-52F52CCC4F64} = {F93C64A4-76B2-4B0E-871C-4D9CF5DFD27F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {984FBA13-88A7-4413-9D77-822850556E28}
+	EndGlobalSection
+EndGlobal

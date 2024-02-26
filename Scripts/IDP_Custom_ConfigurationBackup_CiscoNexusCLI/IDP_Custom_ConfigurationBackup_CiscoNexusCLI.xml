@@ -1,0 +1,40 @@
+<DMSScript options="272">
+  <Name>IDP_Custom_ConfigurationBackup_CiscoNexusCLI</Name>
+  <Description>
+  </Description>
+  <Type>Automation</Type>
+  <Author>ORFCMC\svp53Colen</Author>
+  <CheckSets>FALSE</CheckSets>
+  <Folder>DataMiner Solutions/IDP/CI Type Management/Configuration Management/Backup</Folder>
+  <Protocols>
+  </Protocols>
+  <Memory>
+  </Memory>
+  <Parameters>
+    <ScriptParameter id="1" type="string" values="">
+      <Description>Guid</Description>
+    </ScriptParameter>
+    <ScriptParameter id="2" type="string" values="">
+      <Description>DataMiner Id</Description>
+    </ScriptParameter>
+    <ScriptParameter id="3" type="string" values="">
+      <Description>Element Id</Description>
+    </ScriptParameter>
+    <ScriptParameter id="4" type="string" values="">
+      <Description>CI Type</Description>
+    </ScriptParameter>
+    <ScriptParameter id="5" type="string" values="">
+      <Description>Configuration Type</Description>
+    </ScriptParameter>
+  </Parameters>
+  <Script>
+    <Exe id="6" type="csharp">
+      <Value><![CDATA[[Project:IDP_Cistom_ConfigurationBackup_CiscoNexusCLI_6]]]></Value>
+      <Param type="ref">C:\Skyline DataMiner\ProtocolScripts\DataMinerSolutions.dll</Param>
+      <Param type="ref">C:\Skyline DataMiner\ProtocolScripts\Newtonsoft.Json.dll</Param>
+      <Param type="ref">mscorlib.dll</Param>
+      <Message>
+      </Message>
+    </Exe>
+  </Script>
+</DMSScript>
