@@ -34,7 +34,7 @@
 			</Value>
 			<!--<Param type="debug">true</Param>-->
 			<Message />
-			<Param type="ref">C:\Skyline DataMiner\ProtocolScripts\DataMinerSolutions.dll</Param>
+			<Param type="ref">DataMinerSolutions.dll</Param>
 			<Param type="ref">mscorlib.dll</Param>
 		</Exe>
 	</Script>
